@@ -81,6 +81,10 @@ nav a.active{
     position: relative;
 }
 
+.media-container:hover{
+    font-size: 1.8rem;
+    font-weight: 500
+}
 /* Specific adjustments for video z-index */
 
 
@@ -91,4 +95,23 @@ nav a.active{
     }
 }
 
- 
+
+ /* Card styles */
+.card {
+    overflow: hidden; /* Ensures the image does not go out of bounds */
+  }
+  
+  /* Image styles */
+  .card-img-top {
+    transition: transform 0.3s ease-in-out; /* Smooth enlarge effect */
+  }
+  
+  /* Hover effect to enlarge image */
+  .card:hover .card-img-top {
+    transform: scale(1.1); /* Image enlarges slightly */
+  }
+  
+
+ footer{
+    text-align: center;
+ }
