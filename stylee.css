@@ -96,7 +96,8 @@ nav a.active{
 }
 
 
- /* Card styles */
+/* animation  */
+
 .card {
     overflow: hidden; /* Ensures the image does not go out of bounds */
   }
@@ -112,6 +113,10 @@ nav a.active{
   }
   
 
+
+
+
  footer{
     text-align: center;
+    height: 20px;
  }
